@@ -1,0 +1,114 @@
+h1 {
+    top : 75%;
+    position: absolute;
+    left: 10%;
+}
+.card-container {
+    background: #34495e;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1); 
+    border-bottom: 6px solid #2c3e50;
+    border-right: 6px solid #2c3e50;
+    margin: auto;
+  }
+  
+  .card {
+    position: relative;
+    padding-top: 60%;
+    overflow: hidden;
+  }
+
+  .chip {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    height: 23%;
+  }
+  
+  .contactless {
+    position: absolute;
+    top: 29%;
+    left: 20%;
+    height: 15%;
+    transform: rotate(90deg);
+  }
+  
+  .visa {
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    height: 30%;
+  }
+
+  .card-number {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    background: #34495e;
+    margin-top: 25px;
+    border-radius: 14px;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-right:17px solid white; 
+  }
+
+  .card-name, .card-expire {
+    position: absolute;
+    left: 10%;
+    font-family: sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 3px black;
+  }
+  
+  .card-name {
+    top: 74%;
+    font-size: 1.3rem;
+  }
+  
+  .card-expire {
+    top: 82%;
+    font-size: 1rem;
+  }
+
+
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance:textfield;
+    text-align: center;
+  }
+
+.verification{
+    position: absolute;
+    left: 42%;
+    margin-top: 20px;
+    padding: 20px;
+    background: #2c3e50;
+    border-radius: 15px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+ 

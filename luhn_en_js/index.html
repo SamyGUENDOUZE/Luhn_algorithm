@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=firefox">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Algorithme de Luhn</title>
+</head>
+<body>
+
+    <div class="card-container">
+        <div class="card">
+            <img class="chip" src="./img/chip.svg"/>
+            <img class="contactless" src="./img/wifi-signal.svg"/>
+            <input class="card-number" pattern="[0-9]{16}" type="number" id="number"  >
+            <div class="arrow"></div>
+            <p class="card-name">M Sangoku </p>
+            <p class="card-expire">Expire 05/23</p>
+            <img class="visa"src="./img/visa.svg"/>
+        </div>
+        
+            <button type="button" class="verification" onclick="getValue();">Vérification...</button>
+
+            
+    </div>
+    
+    <h1> Il faut taper un nb sans espace et qui comporte bien 16 chiffres</h1>
+
+</body>
+</html>
